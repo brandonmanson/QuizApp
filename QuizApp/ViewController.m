@@ -20,8 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSMutableArray *questions = [self createQuestions];
-    _question = [[Question alloc]initWithQuestions:questions andAnswers:[self createAnswers]];
+    _question = [[Question alloc]initWithQuestions:[self createQuestions] andAnswers:[self createAnswers]];
     _questionIndex = 0;
     _questionTextLabel.text = _question.questions[_questionIndex];
     _answerTextLabel.alpha = 0.0;

@@ -13,8 +13,6 @@
 @property(strong, nonatomic)NSMutableArray *questions;
 @property(strong, nonatomic)NSMutableArray *answers;
 
-- (void)firstQuestionString;
-
 - (id)initWithQuestions:(NSMutableArray *)questions andAnswers:(NSMutableArray *)answers;
 + (id)initWithQuestions:(NSMutableArray *)questions andAnswers:(NSMutableArray *)answers;
 
